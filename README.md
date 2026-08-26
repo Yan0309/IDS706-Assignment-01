@@ -7,25 +7,29 @@ IDS706-Assignment-1
 This project asks for a name and prints a welcome message for the Data Engineering course.
 
 ## Setup
-
+```
 python -m venv .venv
 source .venv/bin/activate      # Mac / Linux
 .venv\Scripts\activate          # Windows
 pip install -r requirements.txt
-
+```
 
 ## Run tests
-
+```
 python -m pytest
+```
 
 ## Run with Docker
 
+```
 make docker-build
 make docker-run
 make docker-test
+```
 
 ## Example
-
+```
 Enter your name when prompted: Yan
 
 Yan, welcome to the Data Engineering course.
+```

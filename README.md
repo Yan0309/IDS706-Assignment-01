@@ -14,6 +14,11 @@ source .venv/bin/activate      # Mac / Linux
 pip install -r requirements.txt
 ```
 
+## Lint
+```
+make lint
+```
+
 ## Run tests
 ```
 python -m pytest

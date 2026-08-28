@@ -3,5 +3,6 @@ def welcome_message(name):
 
 
 if __name__ == "__main__":
+    # Get the user's name and print the welcome message
     name = input("Enter your name: ")
     print(welcome_message(name))
